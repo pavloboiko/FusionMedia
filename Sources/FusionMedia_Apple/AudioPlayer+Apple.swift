@@ -12,12 +12,12 @@ public class AudioPlayer {
 
 
 extension AudioPlayer: AudioPlayerProtocol {
-  public func play() {
-    player = try? AVAudioPlayer(contentsOf: self.url)
-    player?.prepareToPlay()
-    player?.play()
-
-  }
+//  public func play() {
+//    player = try? AVAudioPlayer(contentsOf: self.url)
+//    player?.prepareToPlay()
+//    player?.play()
+//
+//  }
   
   public func stop() {
      player?.stop()

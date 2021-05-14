@@ -16,16 +16,16 @@ public class AudioPlayer {
 }
 
 extension AudioPlayer: AudioPlayerProtocol {
-  public func play() {
-    guard let isPlaying = self.player?.isPlaying(), !isPlaying else { return }
-    
-    self.player = MediaPlayer()
-    self.listener = MediaPlayerListener()        
-            
-    self.player?.setOnPreparedListener(listener: listener)
-    self.player?.setDataSource(path: url.absoluteString)
-    self.player?.prepareAsync()
-  }
+//  public func play() {
+//    guard let isPlaying = self.player?.isPlaying(), !isPlaying else { return }
+//    
+//    self.player = MediaPlayer()
+//    self.listener = MediaPlayerListener()        
+//            
+//    self.player?.setOnPreparedListener(listener: listener)
+//    self.player?.setDataSource(path: url.absoluteString)
+//    self.player?.prepareAsync()
+//  }
   
   public func stop() {
   }  
