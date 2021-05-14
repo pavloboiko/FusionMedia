@@ -1,4 +1,0 @@
-module Android {
-    header "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/Android.build/Android-Swift.h"
-    requires objc
-}
