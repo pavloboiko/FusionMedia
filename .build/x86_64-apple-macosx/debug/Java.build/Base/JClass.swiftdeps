@@ -1,0 +1,338 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JClass"
+- "registerJavaClass"
+- "findJavaClass"
+- "getJavaClass"
+- "mapJavaObject"
+provides-nominal:
+- "4Java6JClassC"
+provides-member:
+- ["4Java6JClassC", ""]
+provides-dynamic-lookup:
+- "_name"
+- "callStatic"
+- "create"
+- "getFieldID"
+- "getMethodID"
+- "getStatic"
+- "getStaticFieldID"
+- "getStaticMethodID"
+- "name"
+- "setStatic"
+depends-top-level:
+- "+"
+- "=="
+- "AnyClass"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Class__class"
+- !private "Class__getName"
+- "Dictionary"
+- "ExtendedGraphemeClusterType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "JClass"
+- "JConvertible"
+- "JObject"
+- "JParameterConvertible"
+- "JavaFieldID"
+- "JavaMethodID"
+- "JavaObject"
+- "JavaParameter"
+- "ObjectIdentifier"
+- "ObjectProtocol"
+- "String"
+- "StringLiteralType"
+- !private "TernaryPrecedence"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "__classnameToSwiftClass"
+- !private "__javaClasses"
+- !private "__swiftClassToClassname"
+- !private "_name"
+- !private "call"
+- !private "callStatic"
+- !private "checkExceptionAndClear"
+- !private "env"
+- !private "fatalError"
+- "findJavaClass"
+- "getJavaClass"
+- !private "getMethodID"
+- !private "getStaticFieldID"
+- !private "getStaticMethodID"
+- !private "jni"
+- "mapJavaObject"
+- !private "print"
+- !private "ptr"
+- "registerJavaClass"
+- "type"
+depends-member:
+- !private ["Sa", "reduce"]
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["SK", "reduce"]
+- !private ["Sl", ""]
+- ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- !private ["SL", "map"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "reduce"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "reduce"]
+- !private ["SE", "subscript"]
+- ["SQ", ""]
+- ["SQ", "init"]
+- !private ["SQ", "map"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "map"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "map"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "map"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "map"]
+- !private ["SH", ""]
+- ["SH", "init"]
+- !private ["SH", "map"]
+- !private ["SH", "reduce"]
+- !private ["SH", "subscript"]
+- !private ["4Java6JClassC", "Class__getName"]
+- ["4Java6JClassC", "JConvertible"]
+- ["4Java6JClassC", "JParameterConvertible"]
+- ["4Java6JClassC", "JavaFieldID"]
+- ["4Java6JClassC", "JavaMethodID"]
+- ["4Java6JClassC", "JavaObject"]
+- ["4Java6JClassC", "JavaParameter"]
+- ["4Java6JClassC", "String"]
+- ["4Java6JClassC", "Void"]
+- !private ["4Java6JClassC", "_name"]
+- !private ["4Java6JClassC", "call"]
+- ["4Java6JClassC", "callStatic"]
+- !private ["4Java6JClassC", "checkExceptionAndClear"]
+- ["4Java6JClassC", "create"]
+- ["4Java6JClassC", "deinit"]
+- !private ["4Java6JClassC", "env"]
+- !private ["4Java6JClassC", "fatalError"]
+- ["4Java6JClassC", "getFieldID"]
+- ["4Java6JClassC", "getMethodID"]
+- ["4Java6JClassC", "getStatic"]
+- ["4Java6JClassC", "getStaticFieldID"]
+- ["4Java6JClassC", "getStaticMethodID"]
+- !private ["4Java6JClassC", "init"]
+- !private ["4Java6JClassC", "jni"]
+- ["4Java6JClassC", "name"]
+- !private ["4Java6JClassC", "ptr"]
+- ["4Java6JClassC", "setStatic"]
+- !private ["4Java6JClassC", "type"]
+- ["4Java12JConvertibleP", ""]
+- !private ["4Java12JConvertibleP", "fromStaticField"]
+- !private ["4Java12JConvertibleP", "fromStaticMethod"]
+- !private ["4Java12JConvertibleP", "init"]
+- !private ["4Java12JConvertibleP", "init"]
+- !private ["4Java12JConvertibleP", "javaSignature"]
+- !private ["4Java12JConvertibleP", "map"]
+- !private ["4Java12JConvertibleP", "reduce"]
+- !private ["4Java12JConvertibleP", "toStaticField"]
+- !private ["4Java18JNullInitializableP", "init"]
+- !private ["4Java18JNullInitializableP", "map"]
+- !private ["4Java18JNullInitializableP", "reduce"]
+- !private ["4Java7JObjectC", "Class__getName"]
+- ["4Java7JObjectC", "JConvertible"]
+- ["4Java7JObjectC", "JParameterConvertible"]
+- ["4Java7JObjectC", "JavaFieldID"]
+- ["4Java7JObjectC", "JavaMethodID"]
+- ["4Java7JObjectC", "JavaObject"]
+- ["4Java7JObjectC", "JavaParameter"]
+- ["4Java7JObjectC", "String"]
+- ["4Java7JObjectC", "Void"]
+- ["4Java7JObjectC", ""]
+- ["4Java7JObjectC", "_name"]
+- !private ["4Java7JObjectC", "call"]
+- ["4Java7JObjectC", "callStatic"]
+- !private ["4Java7JObjectC", "checkExceptionAndClear"]
+- !private ["4Java7JObjectC", "env"]
+- !private ["4Java7JObjectC", "fatalError"]
+- ["4Java7JObjectC", "getMethodID"]
+- ["4Java7JObjectC", "getStatic"]
+- !private ["4Java7JObjectC", "getStaticFieldID"]
+- !private ["4Java7JObjectC", "getStaticMethodID"]
+- ["4Java7JObjectC", "init"]
+- !private ["4Java7JObjectC", "jni"]
+- ["4Java7JObjectC", "name"]
+- !private ["4Java7JObjectC", "ptr"]
+- ["4Java7JObjectC", "setStatic"]
+- !private ["4Java7JObjectC", "type"]
+- ["4Java18JObjectConvertibleP", ""]
+- !private ["4Java18JObjectConvertibleP", "init"]
+- !private ["4Java18JObjectConvertibleP", "init"]
+- !private ["4Java18JObjectConvertibleP", "map"]
+- !private ["4Java18JObjectConvertibleP", "reduce"]
+- ["4Java21JParameterConvertibleP", ""]
+- !private ["4Java21JParameterConvertibleP", "fromStaticField"]
+- !private ["4Java21JParameterConvertibleP", "fromStaticMethod"]
+- !private ["4Java21JParameterConvertibleP", "init"]
+- !private ["4Java21JParameterConvertibleP", "init"]
+- !private ["4Java21JParameterConvertibleP", "javaSignature"]
+- !private ["4Java21JParameterConvertibleP", "map"]
+- !private ["4Java21JParameterConvertibleP", "reduce"]
+- !private ["4Java21JParameterConvertibleP", "toStaticField"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "map"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "map"]
+- !private ["SM", "reduce"]
+- !private ["SO", "init"]
+- !private ["4Java14ObjectProtocolP", "init"]
+- !private ["4Java14ObjectProtocolP", "init"]
+- !private ["Sk", "reduce"]
+- !private ["Sm", ""]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["Sm", "reduce"]
+- ["ST", ""]
+- ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "reduce"]
+- !private ["ST", "subscript"]
+- !private ["SS", ""]
+- !private ["SS", "init"]
+- !private ["SS", "map"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "map"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "map"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "map"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "map"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "map"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "map"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "map"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "reduce"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SD"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "4Java6JClassC"
+- "4Java12JConvertibleP"
+- !private "4Java18JNullInitializableP"
+- "4Java7JObjectC"
+- "4Java18JObjectConvertibleP"
+- "4Java21JParameterConvertibleP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "SO"
+- !private "4Java14ObjectProtocolP"
+- !private "Sk"
+- !private "Sm"
+- "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidOS.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidMedia.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/Java.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/Android.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Android.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Apple.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidBluetooth.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidLocation.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Common.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidApp.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidContent.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+interface-hash: "efb96bd60ef6145f18e802684e6eefef"

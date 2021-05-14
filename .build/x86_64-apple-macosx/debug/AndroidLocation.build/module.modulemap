@@ -1,0 +1,4 @@
+module AndroidLocation {
+    header "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidLocation.build/AndroidLocation-Swift.h"
+    requires objc
+}

@@ -1,0 +1,38 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "\/Volumes\/SSD_Data\/Work\/Ongoing_Project\/Scade\/FusionMediaWorking\/FusionMedia\/.build\/x86_64-apple-macosx\/debug\/FusionMedia_FusionMedia_Android.bundle\/FusionMedia_Android.java" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Volumes\/SSD_Data\/Work\/Ongoing_Project\/Scade\/FusionMediaWorking\/FusionMedia\/Sources\/FusionMedia_Android\/Generated\/FusionMedia_Android.java"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "\/Volumes\/SSD_Data\/Work\/Ongoing_Project\/Scade\/FusionMediaWorking\/FusionMedia\/.build\/x86_64-apple-macosx\/debug\/FusionMedia_FusionMedia_Android.bundle\/FusionMedia_Android.java"
+        }
+      ]
+    }
+  },
+  "swiftTargetMap" : {
+    "C.Android-debug.module" : "Android",
+    "C.AndroidApp-debug.module" : "AndroidApp",
+    "C.AndroidBluetooth-debug.module" : "AndroidBluetooth",
+    "C.AndroidContent-debug.module" : "AndroidContent",
+    "C.AndroidLocation-debug.module" : "AndroidLocation",
+    "C.AndroidMedia-debug.module" : "AndroidMedia",
+    "C.AndroidOS-debug.module" : "AndroidOS",
+    "C.FusionMedia_Android-debug.module" : "FusionMedia_Android",
+    "C.FusionMedia_Apple-debug.module" : "FusionMedia_Apple",
+    "C.FusionMedia_Common-debug.module" : "FusionMedia_Common",
+    "C.FusionMedia-debug.module" : "FusionMedia",
+    "C.Java-debug.module" : "Java"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

@@ -1,0 +1,4 @@
+module AndroidMedia {
+    header "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidMedia.build/AndroidMedia-Swift.h"
+    requires objc
+}

@@ -1,0 +1,4 @@
+module FusionMedia_Apple {
+    header "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Apple.build/FusionMedia_Apple-Swift.h"
+    requires objc
+}

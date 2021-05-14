@@ -1,0 +1,192 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ObjectProtocol"
+- "ObjectBase"
+- "=="
+provides-nominal:
+- "4Java14ObjectProtocolP"
+- "4Java10ObjectBaseC"
+provides-member:
+- ["4Java14ObjectProtocolP", ""]
+- ["4Java10ObjectBaseC", ""]
+- ["4Java14ObjectProtocolP", "toJavaObject"]
+- ["4Java14ObjectProtocolP", "fromJavaObject"]
+provides-dynamic-lookup:
+- "=="
+- "javaClass"
+- "javaObject"
+depends-top-level:
+- !private "!="
+- "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "Equatable"
+- !private "Int"
+- !private "Int64"
+- "JClass"
+- "JObject"
+- "JObjectConvertible"
+- "JavaMethodID"
+- "JavaObject"
+- "JavaParameter"
+- "ObjectBase"
+- "ObjectProtocol"
+- "Self"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "env"
+- !private "fatalError"
+- !private "getJavaClass"
+- !private "javaObject"
+- !private "jni"
+- !private "mapJavaObject"
+- !private "type"
+- !private "unsafeBitCast"
+depends-member:
+- ["SQ", "=="]
+- !private ["SQ", "Int"]
+- !private ["SQ", "Int64"]
+- !private ["SQ", "JObject"]
+- ["SQ", "JavaMethodID"]
+- ["SQ", "JavaObject"]
+- ["SQ", "JavaParameter"]
+- ["SQ", ""]
+- !private ["SQ", "env"]
+- !private ["SQ", "getJavaClass"]
+- ["SQ", "javaClass"]
+- ["SQ", "javaObject"]
+- ["SQ", "javaSignature"]
+- !private ["SQ", "jni"]
+- !private ["SQ", "type"]
+- !private ["SQ", "unsafeBitCast"]
+- !private ["4Java6JClassC", "getFieldID"]
+- ["4Java12JConvertibleP", "=="]
+- !private ["4Java12JConvertibleP", "Int"]
+- !private ["4Java12JConvertibleP", "Int64"]
+- ["4Java12JConvertibleP", "JObject"]
+- ["4Java12JConvertibleP", "JavaMethodID"]
+- ["4Java12JConvertibleP", "JavaObject"]
+- ["4Java12JConvertibleP", "JavaParameter"]
+- ["4Java12JConvertibleP", ""]
+- !private ["4Java12JConvertibleP", "env"]
+- !private ["4Java12JConvertibleP", "fatalError"]
+- !private ["4Java12JConvertibleP", "getJavaClass"]
+- ["4Java12JConvertibleP", "javaClass"]
+- ["4Java12JConvertibleP", "javaObject"]
+- ["4Java12JConvertibleP", "javaSignature"]
+- !private ["4Java12JConvertibleP", "jni"]
+- !private ["4Java12JConvertibleP", "mapJavaObject"]
+- !private ["4Java12JConvertibleP", "type"]
+- !private ["4Java12JConvertibleP", "unsafeBitCast"]
+- !private ["4Java7JObjectC", "cls"]
+- !private ["4Java7JObjectC", "getFieldID"]
+- !private ["4Java7JObjectC", "set"]
+- ["4Java18JObjectConvertibleP", "=="]
+- !private ["4Java18JObjectConvertibleP", "Int"]
+- !private ["4Java18JObjectConvertibleP", "Int64"]
+- ["4Java18JObjectConvertibleP", "JObject"]
+- ["4Java18JObjectConvertibleP", "JavaMethodID"]
+- ["4Java18JObjectConvertibleP", "JavaObject"]
+- ["4Java18JObjectConvertibleP", "JavaParameter"]
+- ["4Java18JObjectConvertibleP", ""]
+- !private ["4Java18JObjectConvertibleP", "env"]
+- !private ["4Java18JObjectConvertibleP", "fatalError"]
+- !private ["4Java18JObjectConvertibleP", "getJavaClass"]
+- ["4Java18JObjectConvertibleP", "javaClass"]
+- ["4Java18JObjectConvertibleP", "javaObject"]
+- ["4Java18JObjectConvertibleP", "javaSignature"]
+- !private ["4Java18JObjectConvertibleP", "jni"]
+- !private ["4Java18JObjectConvertibleP", "mapJavaObject"]
+- !private ["4Java18JObjectConvertibleP", "type"]
+- !private ["4Java18JObjectConvertibleP", "unsafeBitCast"]
+- ["4Java21JParameterConvertibleP", "=="]
+- !private ["4Java21JParameterConvertibleP", "Int"]
+- !private ["4Java21JParameterConvertibleP", "Int64"]
+- ["4Java21JParameterConvertibleP", "JObject"]
+- ["4Java21JParameterConvertibleP", "JavaMethodID"]
+- ["4Java21JParameterConvertibleP", "JavaObject"]
+- ["4Java21JParameterConvertibleP", "JavaParameter"]
+- ["4Java21JParameterConvertibleP", ""]
+- !private ["4Java21JParameterConvertibleP", "env"]
+- !private ["4Java21JParameterConvertibleP", "fatalError"]
+- !private ["4Java21JParameterConvertibleP", "getJavaClass"]
+- ["4Java21JParameterConvertibleP", "javaClass"]
+- ["4Java21JParameterConvertibleP", "javaObject"]
+- ["4Java21JParameterConvertibleP", "javaSignature"]
+- !private ["4Java21JParameterConvertibleP", "jni"]
+- !private ["4Java21JParameterConvertibleP", "mapJavaObject"]
+- !private ["4Java21JParameterConvertibleP", "type"]
+- !private ["4Java21JParameterConvertibleP", "unsafeBitCast"]
+- ["4Java10ObjectBaseC", "=="]
+- ["4Java10ObjectBaseC", "Bool"]
+- !private ["4Java10ObjectBaseC", "Int"]
+- !private ["4Java10ObjectBaseC", "Int64"]
+- ["4Java10ObjectBaseC", "JClass"]
+- ["4Java10ObjectBaseC", "JObject"]
+- ["4Java10ObjectBaseC", "JavaMethodID"]
+- ["4Java10ObjectBaseC", "JavaObject"]
+- ["4Java10ObjectBaseC", "JavaParameter"]
+- ["4Java10ObjectBaseC", "ObjectBase"]
+- ["4Java10ObjectBaseC", ""]
+- ["4Java10ObjectBaseC", "deinit"]
+- !private ["4Java10ObjectBaseC", "env"]
+- !private ["4Java10ObjectBaseC", "getJavaClass"]
+- ["4Java10ObjectBaseC", "init"]
+- ["4Java10ObjectBaseC", "javaClass"]
+- ["4Java10ObjectBaseC", "javaObject"]
+- ["4Java10ObjectBaseC", "javaSignature"]
+- !private ["4Java10ObjectBaseC", "jni"]
+- !private ["4Java10ObjectBaseC", "type"]
+- !private ["4Java10ObjectBaseC", "unsafeBitCast"]
+- ["4Java14ObjectProtocolP", "=="]
+- !private ["4Java14ObjectProtocolP", "Int"]
+- !private ["4Java14ObjectProtocolP", "Int64"]
+- ["4Java14ObjectProtocolP", "JObject"]
+- ["4Java14ObjectProtocolP", "JavaMethodID"]
+- ["4Java14ObjectProtocolP", "JavaObject"]
+- ["4Java14ObjectProtocolP", "JavaParameter"]
+- ["4Java14ObjectProtocolP", ""]
+- !private ["4Java14ObjectProtocolP", "env"]
+- !private ["4Java14ObjectProtocolP", "fatalError"]
+- ["4Java14ObjectProtocolP", "fromJavaObject"]
+- !private ["4Java14ObjectProtocolP", "getJavaClass"]
+- ["4Java14ObjectProtocolP", "init"]
+- ["4Java14ObjectProtocolP", "javaClass"]
+- ["4Java14ObjectProtocolP", "javaObject"]
+- ["4Java14ObjectProtocolP", "javaSignature"]
+- !private ["4Java14ObjectProtocolP", "jni"]
+- !private ["4Java14ObjectProtocolP", "mapJavaObject"]
+- ["4Java14ObjectProtocolP", "toJavaObject"]
+- !private ["4Java14ObjectProtocolP", "type"]
+- !private ["4Java14ObjectProtocolP", "unsafeBitCast"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "SQ"
+- !private "4Java6JClassC"
+- "4Java12JConvertibleP"
+- !private "4Java7JObjectC"
+- "4Java18JObjectConvertibleP"
+- "4Java21JParameterConvertibleP"
+- "4Java10ObjectBaseC"
+- "4Java14ObjectProtocolP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidOS.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidMedia.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/Java.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/Android.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Android.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Apple.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidBluetooth.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidLocation.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Common.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidApp.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidContent.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+interface-hash: "be617e0676130fa11579416bdec329dd"

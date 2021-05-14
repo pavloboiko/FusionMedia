@@ -1,0 +1,285 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UUID"
+provides-nominal:
+- "4Java4UUIDC"
+provides-member:
+- ["4Java4UUIDC", ""]
+provides-dynamic-lookup:
+- "clockSequence"
+- "compareTo"
+- "fromString"
+- "getLeastSignificantBits"
+- "getMostSignificantBits"
+- "nameUUIDFromBytes"
+- "node"
+- "randomUUID"
+- "timestamp"
+- "variant"
+- "version"
+depends-top-level:
+- "Int32"
+- "Int64"
+- "Int8"
+- "JavaMethodID"
+- "JavaObject"
+- "JavaParameter"
+- "Object"
+- "String"
+- "StringLiteralType"
+- "UUID"
+- "UUID__class"
+- !private "UUID__method__0"
+- !private "UUID__method__1"
+- !private "UUID__method__10"
+- !private "UUID__method__11"
+- !private "UUID__method__2"
+- !private "UUID__method__3"
+- !private "UUID__method__4"
+- !private "UUID__method__5"
+- !private "UUID__method__6"
+- !private "UUID__method__7"
+- !private "UUID__method__8"
+- !private "UUID__method__9"
+- "findJavaClass"
+depends-member:
+- ["SQ", "JavaMethodID"]
+- ["SQ", "JavaObject"]
+- ["SQ", "JavaParameter"]
+- !private ["SQ", "UUID__class"]
+- !private ["SQ", "UUID__method__0"]
+- !private ["SQ", "UUID__method__1"]
+- !private ["SQ", "UUID__method__10"]
+- !private ["SQ", "UUID__method__11"]
+- !private ["SQ", "UUID__method__2"]
+- !private ["SQ", "UUID__method__3"]
+- !private ["SQ", "UUID__method__4"]
+- !private ["SQ", "UUID__method__5"]
+- !private ["SQ", "UUID__method__6"]
+- !private ["SQ", "UUID__method__7"]
+- !private ["SQ", "UUID__method__8"]
+- !private ["SQ", "UUID__method__9"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "javaObject"]
+- !private ["4Java6JClassC", "callStatic"]
+- ["4Java6JClassC", "getMethodID"]
+- ["4Java6JClassC", "getStaticMethodID"]
+- ["4Java12JConvertibleP", "JavaMethodID"]
+- ["4Java12JConvertibleP", "JavaObject"]
+- ["4Java12JConvertibleP", "JavaParameter"]
+- !private ["4Java12JConvertibleP", "UUID__class"]
+- !private ["4Java12JConvertibleP", "UUID__method__0"]
+- !private ["4Java12JConvertibleP", "UUID__method__1"]
+- !private ["4Java12JConvertibleP", "UUID__method__10"]
+- !private ["4Java12JConvertibleP", "UUID__method__11"]
+- !private ["4Java12JConvertibleP", "UUID__method__2"]
+- !private ["4Java12JConvertibleP", "UUID__method__3"]
+- !private ["4Java12JConvertibleP", "UUID__method__4"]
+- !private ["4Java12JConvertibleP", "UUID__method__5"]
+- !private ["4Java12JConvertibleP", "UUID__method__6"]
+- !private ["4Java12JConvertibleP", "UUID__method__7"]
+- !private ["4Java12JConvertibleP", "UUID__method__8"]
+- !private ["4Java12JConvertibleP", "UUID__method__9"]
+- ["4Java12JConvertibleP", ""]
+- !private ["4Java12JConvertibleP", "init"]
+- !private ["4Java12JConvertibleP", "javaObject"]
+- !private ["4Java7JObjectC", "call"]
+- !private ["4Java7JObjectC", "callStatic"]
+- ["4Java7JObjectC", "getMethodID"]
+- ["4Java7JObjectC", "getStaticMethodID"]
+- ["4Java18JObjectConvertibleP", "JavaMethodID"]
+- ["4Java18JObjectConvertibleP", "JavaObject"]
+- ["4Java18JObjectConvertibleP", "JavaParameter"]
+- !private ["4Java18JObjectConvertibleP", "UUID__class"]
+- !private ["4Java18JObjectConvertibleP", "UUID__method__0"]
+- !private ["4Java18JObjectConvertibleP", "UUID__method__1"]
+- !private ["4Java18JObjectConvertibleP", "UUID__method__10"]
+- !private ["4Java18JObjectConvertibleP", "UUID__method__11"]
+- !private ["4Java18JObjectConvertibleP", "UUID__method__2"]
+- !private ["4Java18JObjectConvertibleP", "UUID__method__3"]
+- !private ["4Java18JObjectConvertibleP", "UUID__method__4"]
+- !private ["4Java18JObjectConvertibleP", "UUID__method__5"]
+- !private ["4Java18JObjectConvertibleP", "UUID__method__6"]
+- !private ["4Java18JObjectConvertibleP", "UUID__method__7"]
+- !private ["4Java18JObjectConvertibleP", "UUID__method__8"]
+- !private ["4Java18JObjectConvertibleP", "UUID__method__9"]
+- ["4Java18JObjectConvertibleP", ""]
+- !private ["4Java18JObjectConvertibleP", "init"]
+- !private ["4Java18JObjectConvertibleP", "javaObject"]
+- ["4Java21JParameterConvertibleP", "JavaMethodID"]
+- ["4Java21JParameterConvertibleP", "JavaObject"]
+- ["4Java21JParameterConvertibleP", "JavaParameter"]
+- !private ["4Java21JParameterConvertibleP", "UUID__class"]
+- !private ["4Java21JParameterConvertibleP", "UUID__method__0"]
+- !private ["4Java21JParameterConvertibleP", "UUID__method__1"]
+- !private ["4Java21JParameterConvertibleP", "UUID__method__10"]
+- !private ["4Java21JParameterConvertibleP", "UUID__method__11"]
+- !private ["4Java21JParameterConvertibleP", "UUID__method__2"]
+- !private ["4Java21JParameterConvertibleP", "UUID__method__3"]
+- !private ["4Java21JParameterConvertibleP", "UUID__method__4"]
+- !private ["4Java21JParameterConvertibleP", "UUID__method__5"]
+- !private ["4Java21JParameterConvertibleP", "UUID__method__6"]
+- !private ["4Java21JParameterConvertibleP", "UUID__method__7"]
+- !private ["4Java21JParameterConvertibleP", "UUID__method__8"]
+- !private ["4Java21JParameterConvertibleP", "UUID__method__9"]
+- ["4Java21JParameterConvertibleP", ""]
+- !private ["4Java21JParameterConvertibleP", "init"]
+- !private ["4Java21JParameterConvertibleP", "javaObject"]
+- ["4Java6ObjectC", "Int32"]
+- ["4Java6ObjectC", "Int64"]
+- ["4Java6ObjectC", "Int8"]
+- ["4Java6ObjectC", "JavaMethodID"]
+- ["4Java6ObjectC", "JavaObject"]
+- ["4Java6ObjectC", "JavaParameter"]
+- ["4Java6ObjectC", "String"]
+- ["4Java6ObjectC", "UUID"]
+- !private ["4Java6ObjectC", "UUID__class"]
+- !private ["4Java6ObjectC", "UUID__method__0"]
+- !private ["4Java6ObjectC", "UUID__method__1"]
+- !private ["4Java6ObjectC", "UUID__method__10"]
+- !private ["4Java6ObjectC", "UUID__method__11"]
+- !private ["4Java6ObjectC", "UUID__method__2"]
+- !private ["4Java6ObjectC", "UUID__method__3"]
+- !private ["4Java6ObjectC", "UUID__method__4"]
+- !private ["4Java6ObjectC", "UUID__method__5"]
+- !private ["4Java6ObjectC", "UUID__method__6"]
+- !private ["4Java6ObjectC", "UUID__method__7"]
+- !private ["4Java6ObjectC", "UUID__method__8"]
+- !private ["4Java6ObjectC", "UUID__method__9"]
+- ["4Java6ObjectC", ""]
+- ["4Java6ObjectC", "clockSequence"]
+- ["4Java6ObjectC", "compareTo"]
+- ["4Java6ObjectC", "fromString"]
+- ["4Java6ObjectC", "getLeastSignificantBits"]
+- ["4Java6ObjectC", "getMostSignificantBits"]
+- ["4Java6ObjectC", "init"]
+- !private ["4Java6ObjectC", "javaObject"]
+- ["4Java6ObjectC", "nameUUIDFromBytes"]
+- ["4Java6ObjectC", "node"]
+- ["4Java6ObjectC", "randomUUID"]
+- ["4Java6ObjectC", "timestamp"]
+- ["4Java6ObjectC", "variant"]
+- ["4Java6ObjectC", "version"]
+- ["4Java10ObjectBaseC", "Int32"]
+- ["4Java10ObjectBaseC", "Int64"]
+- ["4Java10ObjectBaseC", "Int8"]
+- ["4Java10ObjectBaseC", "JavaMethodID"]
+- ["4Java10ObjectBaseC", "JavaObject"]
+- ["4Java10ObjectBaseC", "JavaParameter"]
+- ["4Java10ObjectBaseC", "String"]
+- ["4Java10ObjectBaseC", "UUID"]
+- !private ["4Java10ObjectBaseC", "UUID__class"]
+- !private ["4Java10ObjectBaseC", "UUID__method__0"]
+- !private ["4Java10ObjectBaseC", "UUID__method__1"]
+- !private ["4Java10ObjectBaseC", "UUID__method__10"]
+- !private ["4Java10ObjectBaseC", "UUID__method__11"]
+- !private ["4Java10ObjectBaseC", "UUID__method__2"]
+- !private ["4Java10ObjectBaseC", "UUID__method__3"]
+- !private ["4Java10ObjectBaseC", "UUID__method__4"]
+- !private ["4Java10ObjectBaseC", "UUID__method__5"]
+- !private ["4Java10ObjectBaseC", "UUID__method__6"]
+- !private ["4Java10ObjectBaseC", "UUID__method__7"]
+- !private ["4Java10ObjectBaseC", "UUID__method__8"]
+- !private ["4Java10ObjectBaseC", "UUID__method__9"]
+- ["4Java10ObjectBaseC", ""]
+- ["4Java10ObjectBaseC", "clockSequence"]
+- ["4Java10ObjectBaseC", "compareTo"]
+- ["4Java10ObjectBaseC", "fromString"]
+- ["4Java10ObjectBaseC", "getLeastSignificantBits"]
+- ["4Java10ObjectBaseC", "getMostSignificantBits"]
+- ["4Java10ObjectBaseC", "init"]
+- !private ["4Java10ObjectBaseC", "javaObject"]
+- ["4Java10ObjectBaseC", "nameUUIDFromBytes"]
+- ["4Java10ObjectBaseC", "node"]
+- ["4Java10ObjectBaseC", "randomUUID"]
+- ["4Java10ObjectBaseC", "timestamp"]
+- ["4Java10ObjectBaseC", "variant"]
+- ["4Java10ObjectBaseC", "version"]
+- ["4Java14ObjectProtocolP", "JavaMethodID"]
+- ["4Java14ObjectProtocolP", "JavaObject"]
+- ["4Java14ObjectProtocolP", "JavaParameter"]
+- !private ["4Java14ObjectProtocolP", "UUID__class"]
+- !private ["4Java14ObjectProtocolP", "UUID__method__0"]
+- !private ["4Java14ObjectProtocolP", "UUID__method__1"]
+- !private ["4Java14ObjectProtocolP", "UUID__method__10"]
+- !private ["4Java14ObjectProtocolP", "UUID__method__11"]
+- !private ["4Java14ObjectProtocolP", "UUID__method__2"]
+- !private ["4Java14ObjectProtocolP", "UUID__method__3"]
+- !private ["4Java14ObjectProtocolP", "UUID__method__4"]
+- !private ["4Java14ObjectProtocolP", "UUID__method__5"]
+- !private ["4Java14ObjectProtocolP", "UUID__method__6"]
+- !private ["4Java14ObjectProtocolP", "UUID__method__7"]
+- !private ["4Java14ObjectProtocolP", "UUID__method__8"]
+- !private ["4Java14ObjectProtocolP", "UUID__method__9"]
+- ["4Java14ObjectProtocolP", ""]
+- !private ["4Java14ObjectProtocolP", "init"]
+- !private ["4Java14ObjectProtocolP", "javaObject"]
+- ["4Java4UUIDC", "Int32"]
+- ["4Java4UUIDC", "Int64"]
+- ["4Java4UUIDC", "Int8"]
+- ["4Java4UUIDC", "JavaMethodID"]
+- ["4Java4UUIDC", "JavaObject"]
+- ["4Java4UUIDC", "JavaParameter"]
+- ["4Java4UUIDC", "String"]
+- ["4Java4UUIDC", "UUID"]
+- !private ["4Java4UUIDC", "UUID__class"]
+- !private ["4Java4UUIDC", "UUID__method__0"]
+- !private ["4Java4UUIDC", "UUID__method__1"]
+- !private ["4Java4UUIDC", "UUID__method__10"]
+- !private ["4Java4UUIDC", "UUID__method__11"]
+- !private ["4Java4UUIDC", "UUID__method__2"]
+- !private ["4Java4UUIDC", "UUID__method__3"]
+- !private ["4Java4UUIDC", "UUID__method__4"]
+- !private ["4Java4UUIDC", "UUID__method__5"]
+- !private ["4Java4UUIDC", "UUID__method__6"]
+- !private ["4Java4UUIDC", "UUID__method__7"]
+- !private ["4Java4UUIDC", "UUID__method__8"]
+- !private ["4Java4UUIDC", "UUID__method__9"]
+- !private ["4Java4UUIDC", ""]
+- ["4Java4UUIDC", "clockSequence"]
+- ["4Java4UUIDC", "compareTo"]
+- ["4Java4UUIDC", "deinit"]
+- ["4Java4UUIDC", "fromString"]
+- ["4Java4UUIDC", "getLeastSignificantBits"]
+- ["4Java4UUIDC", "getMostSignificantBits"]
+- ["4Java4UUIDC", "init"]
+- !private ["4Java4UUIDC", "javaObject"]
+- ["4Java4UUIDC", "nameUUIDFromBytes"]
+- ["4Java4UUIDC", "node"]
+- ["4Java4UUIDC", "randomUUID"]
+- ["4Java4UUIDC", "timestamp"]
+- ["4Java4UUIDC", "variant"]
+- ["4Java4UUIDC", "version"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "SQ"
+- "4Java6JClassC"
+- "4Java12JConvertibleP"
+- "4Java7JObjectC"
+- "4Java18JObjectConvertibleP"
+- "4Java21JParameterConvertibleP"
+- "4Java6ObjectC"
+- "4Java10ObjectBaseC"
+- "4Java14ObjectProtocolP"
+- "4Java4UUIDC"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidOS.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidMedia.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/Java.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/Android.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Android.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Apple.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidBluetooth.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidLocation.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Common.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidApp.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidContent.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+interface-hash: "8063c59ab4115b48594e11969bf19b6c"

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Common.build/master.swiftdeps"
+  },
+  "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/Sources/FusionMedia_Common/AudioPlayer.swift": {
+    "dependencies": "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Common.build/AudioPlayer.d",
+    "object": "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Common.build/AudioPlayer.swift.o",
+    "swiftmodule": "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Common.build/AudioPlayer~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Common.build/AudioPlayer.swiftdeps"
+  }
+}

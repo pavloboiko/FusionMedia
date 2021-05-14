@@ -1,0 +1,127 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "cast"
+- "cast"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "CastingPrecedence"
+- "JInterfaceProxy"
+- "Object"
+- "cast"
+depends-member:
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "map"]
+- !private ["Sl", ""]
+- !private ["Sl", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["Se", "map"]
+- !private ["SE", "map"]
+- !private ["SQ", "Proto"]
+- !private ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "javaObject"]
+- !private ["SQ", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["SH", "map"]
+- !private ["4Java12JConvertibleP", "Proto"]
+- ["4Java12JConvertibleP", ""]
+- !private ["4Java12JConvertibleP", "init"]
+- !private ["4Java12JConvertibleP", "init"]
+- !private ["4Java12JConvertibleP", "javaObject"]
+- !private ["4Java12JConvertibleP", "map"]
+- ["4Java15JInterfaceProxyP", "Proto"]
+- !private ["4Java15JInterfaceProxyP", "init"]
+- !private ["4Java15JInterfaceProxyP", "init"]
+- !private ["4Java18JNullInitializableP", "map"]
+- !private ["4Java7JObjectC", "ptr"]
+- !private ["4Java18JObjectConvertibleP", "Proto"]
+- ["4Java18JObjectConvertibleP", ""]
+- !private ["4Java18JObjectConvertibleP", "init"]
+- !private ["4Java18JObjectConvertibleP", "init"]
+- !private ["4Java18JObjectConvertibleP", "javaObject"]
+- !private ["4Java18JObjectConvertibleP", "map"]
+- !private ["4Java21JParameterConvertibleP", "Proto"]
+- ["4Java21JParameterConvertibleP", ""]
+- !private ["4Java21JParameterConvertibleP", "init"]
+- !private ["4Java21JParameterConvertibleP", "init"]
+- !private ["4Java21JParameterConvertibleP", "javaObject"]
+- !private ["4Java21JParameterConvertibleP", "map"]
+- !private ["SM", "map"]
+- !private ["4Java6ObjectC", "Proto"]
+- !private ["4Java6ObjectC", ""]
+- !private ["4Java6ObjectC", "init"]
+- !private ["4Java6ObjectC", "init"]
+- !private ["4Java6ObjectC", "javaObject"]
+- !private ["4Java10ObjectBaseC", "Proto"]
+- ["4Java10ObjectBaseC", ""]
+- !private ["4Java10ObjectBaseC", "init"]
+- !private ["4Java10ObjectBaseC", "init"]
+- !private ["4Java10ObjectBaseC", "javaObject"]
+- !private ["4Java14ObjectProtocolP", "Proto"]
+- !private ["4Java14ObjectProtocolP", "init"]
+- !private ["4Java14ObjectProtocolP", "init"]
+- !private ["4Java14ObjectProtocolP", "javaObject"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "map"]
+- !private ["ST", ""]
+- !private ["ST", "map"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- "4Java12JConvertibleP"
+- "4Java15JInterfaceProxyP"
+- !private "4Java18JNullInitializableP"
+- !private "4Java7JObjectC"
+- "4Java18JObjectConvertibleP"
+- "4Java21JParameterConvertibleP"
+- !private "SM"
+- !private "4Java6ObjectC"
+- "4Java10ObjectBaseC"
+- !private "4Java14ObjectProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidOS.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidMedia.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/Java.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/Android.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Android.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Apple.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidBluetooth.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidLocation.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Common.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidApp.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidContent.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+interface-hash: "0200f2b0a5571009f42e793884be1a2f"

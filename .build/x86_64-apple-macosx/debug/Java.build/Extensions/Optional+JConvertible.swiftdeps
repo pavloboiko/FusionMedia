@@ -1,0 +1,109 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "Sq"
+provides-member:
+- ["Sq", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "JClass"
+- "JConvertible"
+- "JObjectConvertible"
+- "JParameterConvertible"
+- "JavaObject"
+- "Optional"
+- "Wrapped"
+depends-member:
+- ["s28CustomDebugStringConvertibleP", "JavaObject"]
+- !private ["s28CustomDebugStringConvertibleP", "Wrapped"]
+- ["s28CustomDebugStringConvertibleP", "javaClass"]
+- ["s28CustomDebugStringConvertibleP", "javaSignature"]
+- ["s17CustomReflectableP", "JavaObject"]
+- !private ["s17CustomReflectableP", "Wrapped"]
+- ["s17CustomReflectableP", "javaClass"]
+- ["s17CustomReflectableP", "javaSignature"]
+- ["Se", "JavaObject"]
+- !private ["Se", "Wrapped"]
+- ["Se", "javaClass"]
+- ["Se", "javaSignature"]
+- ["SE", "JavaObject"]
+- !private ["SE", "Wrapped"]
+- ["SE", "javaClass"]
+- ["SE", "javaSignature"]
+- ["SQ", "JavaObject"]
+- !private ["SQ", "Wrapped"]
+- ["SQ", ""]
+- ["SQ", "javaClass"]
+- ["SQ", "javaSignature"]
+- ["s23ExpressibleByNilLiteralP", "JavaObject"]
+- !private ["s23ExpressibleByNilLiteralP", "Wrapped"]
+- ["s23ExpressibleByNilLiteralP", "javaClass"]
+- ["s23ExpressibleByNilLiteralP", "javaSignature"]
+- ["SH", "JavaObject"]
+- !private ["SH", "Wrapped"]
+- ["SH", "javaClass"]
+- ["SH", "javaSignature"]
+- ["4Java12JConvertibleP", "JavaObject"]
+- !private ["4Java12JConvertibleP", "Wrapped"]
+- ["4Java12JConvertibleP", ""]
+- !private ["4Java12JConvertibleP", "fromJavaObject"]
+- ["4Java12JConvertibleP", "javaClass"]
+- ["4Java12JConvertibleP", "javaSignature"]
+- ["4Java18JObjectConvertibleP", "JavaObject"]
+- !private ["4Java18JObjectConvertibleP", "Wrapped"]
+- ["4Java18JObjectConvertibleP", ""]
+- !private ["4Java18JObjectConvertibleP", "fromJavaObject"]
+- ["4Java18JObjectConvertibleP", "javaClass"]
+- ["4Java18JObjectConvertibleP", "javaSignature"]
+- ["4Java21JParameterConvertibleP", "JavaObject"]
+- !private ["4Java21JParameterConvertibleP", "Wrapped"]
+- ["4Java21JParameterConvertibleP", ""]
+- !private ["4Java21JParameterConvertibleP", "fromJavaObject"]
+- ["4Java21JParameterConvertibleP", "javaClass"]
+- ["4Java21JParameterConvertibleP", "javaSignature"]
+- ["Sq", "JClass"]
+- ["Sq", "JObjectConvertible"]
+- ["Sq", "JavaObject"]
+- ["Sq", "Optional"]
+- !private ["Sq", "Wrapped"]
+- ["Sq", ""]
+- ["Sq", "fromJavaObject"]
+- ["Sq", "javaClass"]
+- ["Sq", "javaSignature"]
+- ["Sq", "toJavaObject"]
+- ["s21_ObjectiveCBridgeableP", "JavaObject"]
+- !private ["s21_ObjectiveCBridgeableP", "Wrapped"]
+- ["s21_ObjectiveCBridgeableP", "javaClass"]
+- ["s21_ObjectiveCBridgeableP", "javaSignature"]
+depends-nominal:
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "Se"
+- "SE"
+- "SQ"
+- "s23ExpressibleByNilLiteralP"
+- "SH"
+- "4Java12JConvertibleP"
+- "4Java18JObjectConvertibleP"
+- "4Java21JParameterConvertibleP"
+- "Sq"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidOS.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidMedia.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/Java.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/Android.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Android.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Apple.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidBluetooth.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidLocation.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/FusionMedia_Common.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidApp.build/module.modulemap"
+- "/Volumes/SSD_Data/Work/Ongoing_Project/Scade/FusionMediaWorking/FusionMedia/.build/x86_64-apple-macosx/debug/AndroidContent.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+interface-hash: "b31e9f4c3bd35251383dac5987a460e5"
