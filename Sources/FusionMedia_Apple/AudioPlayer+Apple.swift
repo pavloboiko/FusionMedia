@@ -18,4 +18,9 @@ extension AudioPlayer: AudioPlayerProtocol {
     player?.play()
 
   }
+  
+  public func stop() {
+     player?.stop()
+
+  }
 }
