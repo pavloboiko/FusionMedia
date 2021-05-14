@@ -26,6 +26,9 @@ extension AudioPlayer: AudioPlayerProtocol {
     self.player?.setDataSource(path: url.absoluteString)
     self.player?.prepareAsync()
   }
+  
+  public func stop() {
+  }  
 }
 
 class MediaPlayerListener: Object, MediaPlayer.OnPreparedListener {  
