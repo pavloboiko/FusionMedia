@@ -32,6 +32,7 @@ extension AudioPlayer: AudioPlayerProtocol {
 
 		timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
         	self.trackProgress?(Float(player.getCurrentPosition()) / Float(self.getDuration()))
+        	print("progress = \(Float(player.getCurrentPosition()) / Float(self.getDuration()))")
         	if !player.isPlaying() {
             	timer.invalidate()
         	}
