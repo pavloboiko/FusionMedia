@@ -47,7 +47,7 @@ extension AudioPlayer: AudioPlayerProtocol {
     
     public func setProgress(_ progress: Float) {
         guard let player = player else { return }
-        player.seekTo(msec: Int(self.getDuration()) * Int(progress))
+        player.seekTo(msec: Int32(Float(self.getDuration()) * progress))
     }
       
     public func getProgress(_ progress: @escaping (_ progress: Float) -> Void) {
