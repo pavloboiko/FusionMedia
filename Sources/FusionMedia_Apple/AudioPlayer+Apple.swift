@@ -44,7 +44,7 @@ extension AudioPlayer: AudioPlayerProtocol {
     }
       
     public func getProgress() -> Float {
-        guard let player = player else { return }    
+        guard let player = player else { return 0 }    
         return Float(player.currentTime / player.duration)
     }
     
