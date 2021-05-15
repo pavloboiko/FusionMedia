@@ -29,21 +29,23 @@ extension AudioPlayer: AudioPlayerProtocol {
   	}
   
   	public func stop() {
-   	 	if (player?.isPlaying()) {      		player?.pause()    	}
+        guard let player = player else { return }
+   	 	if player.isPlaying() {      		player.pause()    	}
   	}
   
   	public func isPlaying() -> Bool {
-  		return player?.isPlaying()
+        guard let player = player else { return false }  	
+  		return player.isPlaying()
   	}
   
     public func getDuration() -> Double {
         guard let player = player else { return 0 }
-        return Double(player.getDuration)
+        return Double(player.getDuration())
     }
     
     public func setProgress(_ progress: Float) {
         guard let player = player else { return }
-        player.seekTo(player.getDuration() * Int(progress))
+        player.seekTo(Int(player.getDuration()) * Int(progress))
     }
       
     public func getProgress(_ progress: @escaping (_ progress: Float) -> Void) {
@@ -52,7 +54,7 @@ extension AudioPlayer: AudioPlayerProtocol {
     
     public func setVolume(_ volume: Float) {
         guard let player = player else { return }
-        player.setVolume(volume, volume)
+        player.setVolume(leftVolume: volume, rightVolume: volume)
     }
     
     public func getVolume() -> Float {
