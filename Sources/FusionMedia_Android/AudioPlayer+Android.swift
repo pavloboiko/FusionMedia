@@ -26,24 +26,12 @@ public class AudioPlayer {
   	}     
 }
 
-extension AudioPlayer: AudioPlayerProtocol {
-    @objc func trackAudio() {
-        guard let player = player else {
-            trackProgress?(0)
-            timer.invalidate()
-            return
-        }
-        trackProgress?(Float(player.getCurrentPosition()) / Float(self.getDuration()))
-        if !player.isPlaying() {
-            timer.invalidate()
-        }
-    }
-    
+extension AudioPlayer: AudioPlayerProtocol {    
   	public func play() {
-    	guard let player = self.player, let isPlaying = player.isPlaying(), !isPlaying else { return }
+    	guard let player = self.player, !player.isPlaying() else { return }
 
-		Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
-        	trackProgress?(Float(player.getCurrentPosition()) / Float(self.getDuration()))
+		timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
+        	self.trackProgress?(Float(player.getCurrentPosition()) / Float(self.getDuration()))
         	if !player.isPlaying() {
             	timer.invalidate()
         	}
@@ -56,6 +44,7 @@ extension AudioPlayer: AudioPlayerProtocol {
         guard let player = player else { return }
    	 	if player.isPlaying() {
       		player.pause()
+      		timer.invalidate()
     	}
   	}
   
