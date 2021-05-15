@@ -30,7 +30,7 @@ extension AudioPlayer: AudioPlayerProtocol {
     }
     
     public func play() {
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector:  #selector(self.trackAudio), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.trackAudio), userInfo: nil, repeats: true)
 
         player?.play()
     }

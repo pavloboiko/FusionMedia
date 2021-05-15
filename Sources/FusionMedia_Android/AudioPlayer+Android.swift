@@ -40,9 +40,16 @@ extension AudioPlayer: AudioPlayerProtocol {
     }
     
   	public func play() {
-    	guard let isPlaying = self.player?.isPlaying(), !isPlaying else { return }
-    	timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.trackAudio), userInfo: nil, repeats: true)
-		self.player?.start()
+    	guard let player = self.player, let isPlaying = player.isPlaying(), !isPlaying else { return }
+
+		Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
+        	trackProgress?(Float(player.getCurrentPosition()) / Float(self.getDuration()))
+        	if !player.isPlaying() {
+            	timer.invalidate()
+        	}
+		}
+		
+		player.start()
   	}
   
   	public func stop() {
