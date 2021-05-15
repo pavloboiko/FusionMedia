@@ -4,8 +4,6 @@ import AVFoundation
 public class AudioPlayer {
     let url: URL
     var player: AVAudioPlayer? = nil
-    var timer:Timer!
-    var trackProgress: ((Float) -> Void)?
     
     public required init(url: URL) {
         self.url = url
@@ -17,27 +15,12 @@ public class AudioPlayer {
 
 
 extension AudioPlayer: AudioPlayerProtocol {
-    @objc func trackAudio() {
-        guard let player = player else {
-            trackProgress?(0)
-            timer.invalidate()
-            return
-        }
-        trackProgress?(Float(player.currentTime / player.duration))
-        if !player.isPlaying {
-            timer.invalidate()
-        }
-    }
-    
     public func play() {
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.trackAudio), userInfo: nil, repeats: true)
-
         player?.play()
     }
     
     public func stop() {
         player?.stop()
-        timer.invalidate()
     }
     
     public func isPlaying() -> Bool {
@@ -60,8 +43,9 @@ extension AudioPlayer: AudioPlayerProtocol {
         }
     }
       
-    public func getProgress(_ progress: @escaping (_ progress: Float) -> Void) {
-        self.trackProgress = progress
+    public func getProgress() -> Float {
+        guard let player = player else { return }    
+        return Float(player.currentTime / player.duration)
     }
     
     public func setVolume(_ volume: Float) {
