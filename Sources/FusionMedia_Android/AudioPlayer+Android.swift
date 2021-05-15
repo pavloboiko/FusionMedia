@@ -8,10 +8,7 @@ public class AudioPlayer {
   	let url: URL
   	var player: MediaPlayer? = nil
   	var volume: Float = 1.0
-  
-    var timer:Timer!
-    var trackProgress: ((Float) -> Void)?
-  
+   
   	private var listener: MediaPlayerListener? = nil
   
   	public required init(url: URL) {
@@ -30,14 +27,6 @@ extension AudioPlayer: AudioPlayerProtocol {
   	public func play() {
     	guard let player = self.player, !player.isPlaying() else { return }
 
-		timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
-        	self.trackProgress?(Float(player.getCurrentPosition()) / Float(self.getDuration()))
-        	print("progress = \(Float(player.getCurrentPosition()) / Float(self.getDuration()))")
-        	if !player.isPlaying() {
-            	timer.invalidate()
-        	}
-		}
-		
 		player.start()
   	}
   
@@ -45,7 +34,6 @@ extension AudioPlayer: AudioPlayerProtocol {
         guard let player = player else { return }
    	 	if player.isPlaying() {
       		player.pause()
-      		timer.invalidate()
     	}
   	}
   
@@ -64,8 +52,9 @@ extension AudioPlayer: AudioPlayerProtocol {
         player.seekTo(msec: Int32(Float(self.getDuration()) * progress))
     }
       
-    public func getProgress(_ progress: @escaping (_ progress: Float) -> Void) {
-        self.trackProgress = progress
+    public func getProgress() -> Float {
+    	guard let player = player else { return 0 }
+		return Float(player.getCurrentPosition()) / Float(self.getDuration())
     }
     
     public func setVolume(_ volume: Float) {
