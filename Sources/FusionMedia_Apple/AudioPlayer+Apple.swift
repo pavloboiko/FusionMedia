@@ -4,7 +4,7 @@ import AVFoundation
 public class AudioPlayer {
     let url: URL
     var player: AVAudioPlayer? = nil
-    var updater : CADisplayLink! = nil
+    var timer:Timer!
     var trackProgress: ((Float) -> Void)?
     
     public required init(url: URL) {
@@ -20,21 +20,24 @@ extension AudioPlayer: AudioPlayerProtocol {
     @objc func trackAudio() {
         guard let player = player else {
             trackProgress?(0)
+            timer.invalidate()
             return
         }
         trackProgress?(Float(player.currentTime / player.duration))
+        if !player.isPlaying {
+            timer.invalidate()
+        }
     }
     
     public func play() {
-        updater = CADisplayLink(target: self, selector: #selector(self.trackAudio))
-        updater.preferredFramesPerSecond = 1
-        updater.add(to: .current, forMode: .common)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector:  #selector(self.trackAudio), userInfo: nil, repeats: true)
 
         player?.play()
     }
     
     public func stop() {
-       player?.stop()
+        player?.stop()
+        timer.invalidate()
     }
     
     public func isPlaying() -> Bool {
