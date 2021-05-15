@@ -42,6 +42,11 @@ extension AudioPlayer: AudioPlayerProtocol {
         return player.isPlaying
     }
     
+    public func getDuration() -> Double {
+        guard let player = player else { return 0 }
+        return player.duration
+    }
+    
     public func setProgress(_ progress: Float) {
         guard let player = player else { return }
         let isPlaying = player.isPlaying
