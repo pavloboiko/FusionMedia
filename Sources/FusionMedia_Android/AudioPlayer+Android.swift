@@ -6,15 +6,17 @@ import FusionMedia_Common
 
 public class AudioPlayer {
   let url: URL
-  var player: MediaPlayer? = nil 
+  var player: MediaPlayer? = nil
+  var volume: Float = 1.0
   
   private var listener: MediaPlayerListener? = nil
   
   public required init(url: URL) {
     self.url = url
     self.player = MediaPlayer()
-    self.listener = MediaPlayerListener()        
-            
+    self.listener = MediaPlayerListener()
+    
+    self.player?.setVolume(leftVolume: volume, rightVolume: volume)            
     self.player?.setOnPreparedListener(listener: listener)
     self.player?.setDataSource(path: url.absoluteString)
     self.player?.prepareAsync()
@@ -45,7 +47,7 @@ extension AudioPlayer: AudioPlayerProtocol {
     
     public func setProgress(_ progress: Float) {
         guard let player = player else { return }
-        player.seekTo(Int(player.getDuration()) * Int(progress))
+        player.seekTo(msec: Int(self.getDuration()) * Int(progress))
     }
       
     public func getProgress(_ progress: @escaping (_ progress: Float) -> Void) {
@@ -55,11 +57,11 @@ extension AudioPlayer: AudioPlayerProtocol {
     public func setVolume(_ volume: Float) {
         guard let player = player else { return }
         player.setVolume(leftVolume: volume, rightVolume: volume)
+        self.volume = volume
     }
     
     public func getVolume() -> Float {
-        guard let player = player else { return 0 }
-        return player.volume
+        return volume
     }
 }
 
