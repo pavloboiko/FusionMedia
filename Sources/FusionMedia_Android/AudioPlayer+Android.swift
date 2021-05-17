@@ -67,26 +67,6 @@ extension AudioPlayer: AudioPlayerProtocol {
         guard let player = player else { return }
         player.seekTo(msec: Int32(to))
     }
-//    
-//    public func setProgress(_ progress: Float) {
-//        guard let player = player else { return }
-//        player.seekTo(msec: Int32(Float(self.getDuration()) * progress))
-//    }
-//      
-//    public func getProgress() -> Float {
-//    	guard let player = player else { return 0 }
-//		return Float(player.getCurrentPosition()) / Float(self.getDuration())
-//    }
-//    
-//    public func setVolume(_ volume: Float) {
-//        guard let player = player else { return }
-//        player.setVolume(leftVolume: volume, rightVolume: volume)
-//        self.volume = volume
-//    }
-//    
-//    public func getVolume() -> Float {
-//        return volume
-//    }
 }
 
 class MediaPlayerListener: Object, MediaPlayer.OnPreparedListener {  
