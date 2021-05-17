@@ -7,7 +7,7 @@ import FusionMedia_Common
 public class AudioPlayer {
   	let url: URL
   	var player: MediaPlayer? = nil
-  	var volume: Float = 1.0
+  	var localVolume: Float = 1.0
    
   	private var listener: MediaPlayerListener? = nil
   
@@ -41,12 +41,12 @@ extension AudioPlayer: AudioPlayerProtocol {
     
     public var volume: Float {
         get {
-            return self.volume
+            return self.localVolume
         }
         set {
             guard let player = player else { return }
         	player.setVolume(leftVolume: newValue, rightVolume: newValue)            
-            self.volume = newValue
+            self.localVolume = newValue
         }
     }
     
